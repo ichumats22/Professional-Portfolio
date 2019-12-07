@@ -393,6 +393,10 @@ Sidebar
 	display:block;
 	padding: 5px;
 }
+
+img {
+	width: 50%;
+}
 .desktop-screen-navigation ul li{
 	width:100%;
 	float:left;
