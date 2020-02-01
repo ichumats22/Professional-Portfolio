@@ -481,7 +481,9 @@ About
 	background:#fff;
 	z-index:2;
 	-webkit-transform: translate3d(0,0,0);	
+	height: auto;
 }
+
 #about p {
 	text-align:left;
 	margin-bottom:20px;
@@ -1028,6 +1030,10 @@ Resume
 /* ====================
 Work
 --------------------------------------------------------------*/
+#portfolio_box_grid {
+	float: none;
+}
+
 
 #work{
 	padding:0;

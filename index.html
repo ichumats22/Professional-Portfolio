@@ -109,7 +109,7 @@
 						<li class="current transition"><a href="#about" class="scroll-link transition">About</a></li>
 						<li class="transition"><a href="#resume" class="scroll-link transition">Resume</a></li>
 						<li class="transition"><a href="#work" class="scroll-link transition">Portfolio</a></li>
-						<!--<li class="transition"><a href="#services" class="scroll-link transition">Services</a></li> -->
+						<!--li class="transition"><a href="#services" class="scroll-link transition">Services</a></li -->
 						<li class="transition"><a href="#contacts" class="scroll-link transition">Contact</a></li>
 						<!--<li class="transition"><a href="blog.html" class="transition">Blog</a></li> -->
 					</ul>
@@ -150,39 +150,38 @@
 						
 					</div>
 					
+					
 					<div class="clear"></div>
 					
 					<!--skills--> 
 					
 					<div class="piechart-holder">
 								
-						<div class="piechart grid-2">
-							 <span class="chart skilBg" data-percent="60">
-								<span class="percent"></span>
-							</span>
-							
-							<h4>PHOTOSHOP</h4>
-							<p>Xillum dolore eu fugiat nulla pariatur</p>				
-						
-						</div>
-						<div class="piechart grid-2">
+						<div class="piechart grid-3">
 							 <span class="chart skilBg" data-percent="90">
 								<span class="percent"></span>
 							</span>
 							
-							<h4>PHP / MYSQL</h4>
-							<p>Lorem ipsum dolor sit amet</p>				
+							<h4>CLIENT-SIDE DEVELOPMENT</h4>			
 						
 						</div>
-						<div class="piechart grid-2">
-							 <span class="chart skilBg" data-percent="75">
+						<div class="piechart grid-3">
+							 <span class="chart skilBg" data-percent="80">
 								<span class="percent"></span>
 							</span>
 							
-							<h4>HTML5 / CSS3</h4>
+							<h4>SERVER-SIDE DEVELOPMENT</h4>			
+						
+						</div>
+						<!--div class="piechart grid-2">
+							 <span class="chart skilBg" data-percent="30">
+								<span class="percent"></span>
+							</span>
+							
+							<h4>WRITING TESTS</h4>
 							<p>Donec accumsan ligula vitae mag</p>				
 						
-						</div>				
+						</!--div -->				
 					
 				</div>
 					
@@ -210,7 +209,7 @@
 	
 					<ul>
 					
-						<!-- fact 1-- >
+						<!-- fact 1-- > 
 						
 						<li class="transition scale-small animaper"> 
 							<div class="conter-decor">
@@ -462,12 +461,25 @@
 				
 						<div id="folio_container">
 						
-							<!-- 1 project ajax page-->
+							<!-- project page-->
 						
-							<div class="box grid-2   mix category_1 mix_all activefol">
-							
+							<div class="box grid-2  mix category_1 mix_all" id="portfolio_box_grid">
+								<a href="https://github.com/AeroAtlas/Project1Delta" target="_blank">
+									<div class="folio-img-holder">
+									 <img src="images/folio/project-1.png" class="respimg" alt="" title="">
+									 <div class="folio-overlay">
+										 <h3>Duis aute</h3>
+										 <h5>Design - Web</h5>
+										 <div class="folio-button"><i class="fa fa-picture-o"></i></div>
+									 </div>
+								 </div>
+							 	</a>	 
+						 	</div>
+
+							<!-- project pagee-->
+
+							<div class="box grid-2   mix category_1 mix_all activefol" id="portfolio_box_grid">
 								<a href="https://ichumats22.github.io/Word-Guess-Game/" target="_blank">
-								
 									<div class="folio-img-holder">
 										<img src="images/folio/arizona-hangman .png" class="respimg" alt="" title="">
 										<div class="folio-overlay">
@@ -476,17 +488,13 @@
 										<div class="folio-button"><i class="fa fa-rocket"></i></div>
 										</div>
 									</div>
-									
 								</a>
-								
 							</div>
+
+							<!-- project page-->
 							
-							<!-- 2 project ajax page-->
-							
-							<div class="box grid-2  mix category_2 mix_all">
-							
+							<div class="box grid-2  mix category_1 mix_all" id="portfolio_box_grid">
 								<a href="https://ichumats22.github.io/Psychic-Game/" target="_blank">
-								
 									<div class="folio-img-holder">
 										<img src="images/folio/psychic game.png" class="respimg" alt="" title="">								
 										<div class="folio-overlay">
@@ -495,17 +503,13 @@
 											<div class="folio-button"><i class="fa fa-picture-o"></i></div>
 										</div>							
 									</div>
-									
 								</a>	
-								
 							</div>
 							
-							<!-- 3 project ajax page-->	
+							<!-- project page-->	
 						
-							<div class="box grid-2   mix category_3 mix_all">
-							
+							<div class="box grid-2   mix category_2 mix_all" id="portfolio_box_grid">
 								<a href="https://ichumats22.github.io/Crystals-Collector/" target="_blank">
-								
 									<div class="folio-img-holder">						
 										<img src="images/folio/crystal-collector.png" class="respimg" alt="" title="">
 										<div class="folio-overlay">
@@ -514,17 +518,13 @@
 											<div class="folio-button"><i class="fa fa-camera-retro"></i></div>
 										</div>
 									</div>
-									
 								</a>
-								
 							</div>
 							
-							<!-- 4 project youtube  video-->
+							<!--project page-->
 							
-							<div class="box  grid-2  mix category_2 mix_all">
-							
+							<div class="box  grid-2  mix category_2 mix_all" id="portfolio_box_grid">
 								<a href="https://ichumats22.github.io/Trivia-Game/" target="_blank">
-								
 									<div class="folio-img-holder">
 										<img src="images/folio/trivia-game.png" class="respimg" alt="" title="">
 										<div class="folio-overlay">
@@ -533,15 +533,12 @@
 											<div class="folio-button"><i class="fa fa-rocket"></i></div>
 										</div>
 									</div>
-									
 								</a>
-							
 							</div>
 							
-							<!-- 5 project vimeo video-->	
+							<!-- project page-->	
 						
-							<div class="box grid-2  mix category_3 mix_all">
-							
+							<div class="box grid-2  mix category_2 mix_all" id="portfolio_box_grid">
 								<a href="https://ichumats22.github.io/GIFTastic/." target="_blank">
 									<div class="folio-img-holder">
 										<img src="images/folio/gif-tastic.png" class="respimg" alt="" title="">
@@ -551,17 +548,13 @@
 											<div class="folio-button"><i class="fa fa-camera-retro"></i></div>
 										</div>
 									</div>
-									
 								</a>
-								
 							</div>
 							
-							<!-- 6 project single image-->
+							<!-- project page -->
 							
-							<div class="box grid-2  mix category_1 mix_all">
-							
+							<div class="box grid-2  mix category_3 mix_all" id="portfolio_box_grid">
 								<a href="https://ichumats22.github.io/Train-Time/" target="_blank">
-								
 									<div class="folio-img-holder">
 										<img src="images/folio/train-time.png" class="respimg" alt="" title="">
 										<div class="folio-overlay">
@@ -570,68 +563,40 @@
 											<div class="folio-button"><i class="fa fa-camera-retro"></i></div>
 										</div>
 									</div>
-									
 								</a>
-									
 							</div>
+		
+							<!-- project page-->
 							
-							<!-- 7 project gallery-- >	
-						
-							<div class="box grid-2  mix category_2 mix_all">
-							
-								 <a href="images/folio/1.jpg" class="popup-gallery">
-									 <div class="folio-img-holder">
-										<img src="images/folio/thumbs/1.jpg" class="respimg" alt="" title="">
-										<div class="folio-overlay">
-											<h3>Duis aute</h3>
-											<h5>Design - Web</h5>
-											<div class="folio-button"><i class="fa fa-picture-o"></i></div>
-										</div>
-									</div>
-									
-								</a>
-									
-							</div>
-							
-							<!-- 8 project gallery-- >
-							
-							<div class="box grid-2  mix category_3 mix_all">
-							
-								<a href="images/folio/1.jpg" class="popup-gallery">
-								
+							<div class="box grid-2  mix category_3 mix_all" id="portfolio_box_grid">
+								<a href="https://ivc-friend-finder.herokuapp.com/" class="popup-gallery">
 									<div class="folio-img-holder">
-										<img src="images/folio/thumbs/1.jpg" class="respimg" alt="" title="">
+										<img src="images/folio/friend-finder.png" class="respimg" alt="" title="">
 										<div class="folio-overlay">
 											<h3>Xillum dolore</h3>
 											<h5>Branding- Web</h5>
 											<div class="folio-button"><i class="fa fa-rocket"></i></div>
 										</div>
 									</div>
-									
 								</a>
-									
 							</div>
 							
-							<!-- 9 project gallery-- >
+							<!-- project page-->
 						
-							<div class="box grid-2   mix category_1 mix_all">
-							
-								<a href="images/folio/1.jpg" class="popup-gallery">
-								
+							<div class="box grid-2   mix category_3 mix_all" id="portfolio_box_grid">
+								<a href="https://github.com/ichumats22/Bamazon.git" class="popup-gallery">
 									<div class="folio-img-holder">
-										<img src="images/folio/thumbs/1.jpg" class="respimg" alt="" title="">
+										<img src="images/folio/bamazon.png" class="respimg" alt="" title="">
 										<div class="folio-overlay">
 											<h3>Nulla tincidunt</h3>
 											<h5>Design - Branding</h5>
 											<div class="folio-button"><i class="fa fa-picture-o"></i></div>
 										</div>
 									</div>
-									
 								</a>
-								
 							</div>
 											
-						</div-->
+						</div>
 						
 					</div>	
 					
