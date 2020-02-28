@@ -1585,6 +1585,10 @@ Contact form
 #contact_form label input{
 	display: block;
 }
+
+#contact_form label {
+	display: contents;
+}
 #contact_form input{
 	border:2px solid #fff;
 	border-bottom:4px solid #ccc;
