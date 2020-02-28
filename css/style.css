@@ -51,7 +51,7 @@ h1 {
 	line-height: 1.17em;	
 }
 h2 {
-	font-size: 2.2em;
+	font-size: 3.2em;
 	letter-spacing: 0.10em;
 	font-weight: bold;
 	text-transform:uppercase;
@@ -482,26 +482,40 @@ About
 	z-index:2;
 	-webkit-transform: translate3d(0,0,0);	
 	height: auto;
+	min-height: 1072px;
+	display: flex;
+	align-items: center;
+}
+
+#about .row {
+	display: flex;
+	align-items: center;
+}
+ 
+#about h2 {
+	margin-bottom: 3.0rem;
 }
 
 #about p {
 	text-align:left;
 	margin-bottom:20px;
+	font-size: 1.5rem;
 }
 #about h3 {
 	text-align:left;
 	margin-bottom:20px;
+	font-size: 2rem;
 }
 #about h3.margin{
 	font-weight:bold;
 	color:#666;
+	font-size: 1.3rem;
 }
 #about h4.margin {
 	margin-bottom:20px;
 }
 .photo-holder{
 	position: relative;
-	max-width:350px;
 	margin:0 auto;
 }
 .photo-holder img{
@@ -538,6 +552,7 @@ About
 	float:left;
 	border-bottom:4px solid #ccc;
 	position:relative;
+	font-size: 1.3rem;
 }
 .button:before{
 	z-index: -1;
@@ -2255,6 +2270,7 @@ Media
 	margin-top:10%;
 }
 }
+
 /* ====================
 Tablet / netbooks 
 --------------------------------------------------------------*/
@@ -2343,7 +2359,6 @@ Tablet / netbooks
 	margin-top:30%;
 }
 }
-
 /* ====================
 Tablet 
 --------------------------------------------------------------*/
