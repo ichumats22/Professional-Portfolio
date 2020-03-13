@@ -869,28 +869,33 @@
 							<!--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Xillum dolore eu fugiat nulla pariatur. olore magna aliqua.</p>-->
 								
 								<fieldset id="contact_form">
-																			
-									<label for="name">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</label>
-									
-									<label for="email">
-										<input type="text" name="email" class="right" id="email" placeholder="Email" />
-									</label>
-									
-									<div class="clear"></div>
-									
-									<label for="message">
-										<textarea name="message"  id="message" placeholder="Message"></textarea>
-									</label>
-												
-									<div class="clear"></div>
-																		
-									<label>
-										<button class="submit_btn transition" id="submit_btn"><i class="fa fa-envelope-o fa-2x"></i></button>
-									</label>
+
+									<form
+										action="https://formspree.io/myypzyre"
+										method="POST"
+										>
+										<label for="name">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</label>
 										
-									<div id="result"></div>
+										<label for="email">
+											<input type="text" name="_replyto" class="right" id="email" placeholder="Email" />
+										</label>
+										
+										<div class="clear"></div>
+										
+										<label for="message">
+											<textarea name="message"  id="message" placeholder="Message"></textarea>
+										</label>
+													
+										<div class="clear"></div>
+																			
+										<label>
+											<button class="submit_btn transition" type='submit' id="submit_btn"><i class="fa fa-envelope-o fa-2x"></i></button>
+										</label>
+											
+										<div id="result"></div>
+									</form>
 									
 								</fieldset>
 									
